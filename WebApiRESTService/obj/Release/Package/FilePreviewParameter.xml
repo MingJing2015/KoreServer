@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="mingjing2637.com/KoreFtpApi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Ming\ Mac\\Desktop\\WebApiRESTService\ -\ V2\ CORS\\WebApiRESTService\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Ming\ Mac\\Desktop\\WebApiRESTService\ -\ V2\ CORS\\WebApiRESTService\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="WebApiRESTService.Models.ProductDBContext-Web.config Connection String" description="" value="WebApiRESTService.Models.ProductDBContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ming\ Mac\\Desktop\\WebApiRESTService\ -\ V2\ CORS\\WebApiRESTService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebApiRESTService.Models.ProductDBContext']/@connectionString" />
+  </parameter>
+</parameters>

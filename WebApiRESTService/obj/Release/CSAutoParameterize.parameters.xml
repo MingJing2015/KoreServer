@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WebApiRESTService.Models.ProductDBContext-Web.config Connection String" description="WebApiRESTService.Models.ProductDBContext Connection String used in web.config by the application to access the database." defaultValue="WebApiRESTService.Models.ProductDBContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ming\ Mac\\Desktop\\KoreFtpApi\\WebApiRESTService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebApiRESTService.Models.ProductDBContext']/@connectionString" />
+  </parameter>
+</parameters>
