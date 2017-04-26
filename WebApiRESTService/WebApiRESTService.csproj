@@ -159,6 +159,7 @@
     <None Include="Properties\PublishProfiles\mingjing2637.com - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\mingjing2637.com - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="images\logo.png" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
@@ -189,6 +190,9 @@
     <None Include="Properties\PublishProfiles\WebApiRESTService20170111023455.pubxml" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Views\Home\Upload.cshtml" />
+    <Content Include="Views\Shared\_LayoutPage1.cshtml" />
+    <Content Include="Views\Home\ShowList.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -48,6 +48,8 @@ namespace WebApiRESTService.Controllers
                     {
                         // SAVE THE FILES IN THE FOLDER.
                         hpf.SaveAs(sPath + Path.GetFileName(hpf.FileName));
+
+                        // ?? string a = hpf.ToString();
                         iUploadedCnt = iUploadedCnt + 1;
                     }
                 }
