@@ -28,7 +28,7 @@ namespace WebApiRESTService.Controllers
                 if (file != null && file.ContentLength > 0)
                 {
                     var fileName = Path.GetFileName(file.FileName);
-                    var path = Path.Combine(Server.MapPath("~/FtpDir/"), fileName);
+                    var path = Path.Combine(Server.MapPath("~/NewFtpDir/"), fileName);
                     file.SaveAs(path);
 
                     // Read the file and display it line by line.
@@ -62,7 +62,7 @@ namespace WebApiRESTService.Controllers
 
             // DEFINE THE PATH WHERE WE WANT TO SAVE THE FILES.
             string sPath = "";
-            sPath = System.Web.Hosting.HostingEnvironment.MapPath("~/FtpDir/");
+            sPath = System.Web.Hosting.HostingEnvironment.MapPath("~/NewFtpDir/");
 
             DirectoryInfo directory = new DirectoryInfo(sPath);
             ViewBag.files = directory.GetFiles().ToList();

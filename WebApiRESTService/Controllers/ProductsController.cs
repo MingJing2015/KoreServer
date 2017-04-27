@@ -32,7 +32,7 @@ namespace WebApiRESTService.Controllers
 
             // DEFINE THE PATH WHERE WE WANT TO SAVE THE FILES.
             string sPath = "";
-            sPath = System.Web.Hosting.HostingEnvironment.MapPath("~/FtpDir/");
+            sPath = System.Web.Hosting.HostingEnvironment.MapPath("~/NewFtpDir/");
 
             System.Web.HttpFileCollection hfc = System.Web.HttpContext.Current.Request.Files;
 
@@ -76,7 +76,7 @@ namespace WebApiRESTService.Controllers
         {
             // DEFINE THE PATH WHERE WE WANT TO SAVE THE FILES.
             string sPath = "";
-            sPath = System.Web.Hosting.HostingEnvironment.MapPath("~/FtpDir/");
+            sPath = System.Web.Hosting.HostingEnvironment.MapPath("~/NewFtpDir/");
 
             DirectoryInfo directory = new DirectoryInfo(sPath);
             var files = directory.GetFiles().ToList();
@@ -91,7 +91,7 @@ namespace WebApiRESTService.Controllers
         {
             // DEFINE THE PATH WHERE WE WANT TO SAVE THE FILES.
             string sPath = "";
-            sPath = System.Web.Hosting.HostingEnvironment.MapPath("~/FtpDir/");
+            sPath = System.Web.Hosting.HostingEnvironment.MapPath("~/NewFtpDir/");
 
             DirectoryInfo directory = new DirectoryInfo(sPath);
             var files = directory.GetFiles().ToList();
